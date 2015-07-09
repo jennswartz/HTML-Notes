@@ -1,0 +1,50 @@
+body {
+  margin: 20px;
+  padding: 20px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 2000px;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+.TOC {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.TOC-list {
+  background-color: #E8E8E8;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  margin: 1px;
+  padding: 10px;
+}
+
+.main {
+  background-color: gray;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  border: 20px solid black;
+}
+
+.sub-1 {
+  background-color: silver;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid black;
+}

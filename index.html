@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <title>Jenn's Notes from The Basics of the Web and HTML</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div class="TOC">
+    <h1>Table of Contents</h1>
+  </div>
+  <div class="TOC-list">
+    <a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+    <ul>
+      <li>How the Web Works
+      </li>
+      <li>HTML</li>
+      <li>HTTP</li>
+      <li>Tags</li>
+      <li>Attributes</li>
+    </ul>
+
+    <a href="#lesson-1.2">Lesson 1.2: Creating a Structured Document</a>
+    <ul>
+      <li>Overview of the Concepts</li>
+      <li>Developer Tools</li>
+      <li>HTML's Tree-Like Structure and Boxifying Designs</li>
+      <li>Text Editors</li>
+    </ul>
+
+    <a href="#lesson-1.3">Lesson 1.3: Adding CSS Style to HTML Structure</a>
+    <ul>
+      <li>CSS Adds Style to Page
+      </li>
+      <li>More Boxes
+      </li>
+      <li>Developer Tools
+      </li>
+      <li>Avoid Repetition
+      </li>
+    </ul>
+
+    <a href="#lesson-2.1">Lesson 2.1: Serious Programming</a>
+    <ul>
+      <li>Important Concepts
+      </li>
+      <li>Debugging</li>
+    </ul>
+
+    <a href="#lesson-2.2">Lesson 2.2: Variables and Strings</a>
+    <ul>
+      <li>Variables
+      </li>
+      <li>Strings</li>
+    </ul>
+
+    <a href="#lesson-2.3">Lesson 2.3: Input->Function->Output</a>
+    <ul>
+      <li>Defining Functions
+      </li>
+      <li>Return and Print</li>
+    </ul>
+
+    <a href="#lesson-2.4">Lesson 2.4: Control Flow and Loops: If and While</a>
+    <ul>
+      <li>Important Programming Tools to Remember
+      </li>
+      <li>"if" and "while"</li>
+    </ul>
+
+    <a href="#lesson-2.5">Lesson 2.5: Debugging</a>
+    <ul>
+      <li>Key Debugging Strategies
+      </li>
+    </ul>
+    <a href="#lesson-2.6">Lesson 2.6: Structured Data: Lists and For Loops</a>
+    <ul>
+      <li>Lists
+      </li>
+      <li>Mutations
+      </li>
+      <li>Aliasing
+      </li>
+      <li>Examples of List Operands
+      </li>
+      <li>Loops on Lists
+      </li>
+    </ul>
+
+    <a href="#lesson-2.7">Lesson 2.7: How to Solve Problems</a>
+    <ul>
+      <li>Steps for Understanding Problems and Systematically Solving Them
+      </li>
+    </ul>
+
+
+  </div>
+
+
+  <h1>Web and HTML Basic Concepts</h1>
+
+  <div class="main">
+    <h2 id="lesson-1">Lesson 1 - The Basics of the Web and HTML</h2>
+    <div class="sub-1" id="lesson-1-1">
+      <p>
+        <b>HTML</b> - the basis for all web pages
+      </p>
+      <p>
+        <b>HTTP</b> - the protocol used between the internet and servers to communicate
+      </p>
+    </div>
+    <div class="sub-1">
+      <br>
+      <b>HTML</b> uses markup tags. Tags include:
+      <ul>
+        <li>Name</li>
+        <li>b (bold)</li>
+        <li>em (emphasis) = <em>italics</em>
+        </li>
+      </ul>
+    </div>
+
+    <div class="sub-1">
+      <p>
+        <b>HTML</b> elements can have <em>attributes</em>. Examples include linking to websites <a href="www.udacity.com ">like this</a>.
+      </p>
+      <p>
+        Images use the img tag. Use alt="text " for blind screenreaders. Img is an example of a "void " tag, <em>i.e.</em> it does not have a closing tag.
+      </p>
+    </div>
+    <div class="sub-1">
+      <p>
+        <b>Inline tag</b> examples include a, span, br, img, and strong.
+      </p>
+      <p>
+        <b>Block tag</b> examples include div, p, and form. Block elements form an invisible box around them.</p>
+    </div>
+  </div>
+
+  <div class="main">
+    <h2 id="lesson-1.2">Lesson 1.2 - Creating a Structured Document</h2>
+
+    <div class="sub-1">
+      <p>Overview of the Concepts:
+        <ul>
+          <li>
+            <b>HTML</b> is the structure of the page;
+          </li>
+          <li>
+            <b>CSS</b> is the style;
+          </li>
+          <li>
+            <b>JavaScript</b> provides any interactivity.
+        </ul>
+    </div>
+
+    <div class="sub-1">
+      <p>
+
+        <p>
+          <b>"DOM "</b> is <em>Document Object Mode</em> - meaning tree-like structure of a page.
+        </p>
+
+        <p>
+          <b>"CSS "</b> = <em>Cascading Style Sheets</em> - Used to provide color, font, etc.
+        </p>
+
+        <p>
+          <b>Language</b> --> syntax + rules
+        </p>
+
+        <p>
+          When designing webpages, cut the pages into boxes. For box, use div tags to define them.
+        </p>
+
+        <p>
+          Text editors - downloaded Sublime, which automatically adds tags. Use tags to create the trees that create the pages. CSS defines the styles.
+        </p>
+    </div>
+  </div>
+  <div class="main">
+    <h2 id=lesson-1.3>Lesson 1.3 - Adding CSS Style and HTML Structure</h2>
+
+    <div class="sub-1">
+      <p>
+        CSS adds style to the page. It reads directions from the HTML code to apply style rules to format the page.
+      </p>
+    </div>
+    <div class="sub-1">
+      <p>
+        Design of webpages are made up of boxes. Think about all the boxes on the page while designing the page.
+      </p>
+    </div>
+    <div class="sub-1">
+      <p>
+        Developer tools in the browser can provide assistance for designing.
+      </p>
+    </div>
+    <div class="sub-1">
+      <p>
+        Avoid repetition. Give the same style to similar elements so you can modify them all at once by changing a single line of CSS.
+      </p>
+    </div>
+  </div>
+  <div class="main">
+    <h2 id=lesson-2.1>Lesson 2.1 - Serious Programming</h2>
+
+    <div class="sub-1">
+      <p>
+        Important Concepts: Telling Computers What to Do
+      </p>
+      <ul>
+        <li>A computer can be programmed to do anything we want.</li>
+        <li>A computer program is a precise sequence of steps that a computer can follow to do something useful, e.g., browsers, games, mobile apps.</li>
+        <li>Programmers use a programing language, e.g., Python, to tell computers what to do.</li>
+        <li>Grammar - Must be precise or the program will not run.</li>
+      </ul>
+      <p>
+        Debugging – one of five ways that programmers think. Python code requires specific syntax, or code will not work. Must learn systems for debugging code.
+      </p>
+    </div>
+  </div>
+
+  <div class="main">
+    <h2 id=lesson-2.2>Lesson 2.2 – Variables and Strings</h2>
+
+    <div class="sub-1">
+      <p>
+        <b>Variables</b>: a value that can change, depending on conditions or on information passed to the program. Variables are used to store information to be referenced and manipulated in a computer program.  Variables also provide a way of labeling data with a descriptive name so that programs can be understood more clearly by the reader and ourselves.   Think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout a program.  Expressions are any sequence of letters, numbers and underscores. Assign a value, then you can refer to it by name. Example: speed_of_light = 299792458. Variables can change if the values change.
+      </p>
+      <p>
+        A <b>string</b> is a sequence of characters. Must be in quotes or it will appear as a variable. You can index strings, select subsequences, and find strings within strings.
+      </p>
+    </div>
+  </div>
+  <div class="main">
+    <h2 id=lesson-2.3>Lesson 2.3 – Input->Function->Output</h2>
+
+    <div class="sub-1">
+      <p>
+        Computers need an input, then perform a function (a/k/a procedure), then produce something else as an output.
+      </p>
+      <p>
+        <b>Defining Functions:</b> In Python, functions are defined by writing the 'def' keyword followed by a name, and then the 'parameters' for the function (inside parentheses), and a colon.
+      </p>
+      <p>
+        <b>return vs print:</b> You usually want to make sure to end your function with a return statement, otherwise they don’t really do anything.
+      </p>
+      <p>
+        Use inputs, functions, and outputs to build processes. Once you define a function once, you don't have to define it again.
+      </p>
+    </div>
+  </div>
+
+  <div class="main">
+    <h2 id=lesson-2.4>Lesson 2.4 – Control Flow and Loops: If and While</h2>
+
+    <div class="sub-1">
+      <p>
+        There are two important programming tools to remember: decision making and repetition.
+      </p>
+      <p>
+        <b>“if”</b> statements control which code gets executed when; <b>“while”</b> loops make code perform the same task many times.
+      </p>
+      <p>
+        Loops use conditional statements.  If the condition in the first statement of the expression is True, then the indented part of the expression is executed.  Use if/else statements if you want want thing to happen if the expression is true, and another to happen if the expression is false.  
+      </p>
+      <p>
+        The for-loop processes each item in a sequence.  Each item in the sequence is assigned to the loop variable, and the body of the loop is executed.  In other words, it loops through each item in a sequence.  Example - use to print range 0 to 5 by looping through a sequence of numbers 0 to 5.
+      </p>
+      <p>
+        The while-loop keeps executing as long as the expression is true.  It can go on forever.  (Use sparingly because of this.)  The while loop works by evaluating the condition in the initial expression to determine if it is true or false.  If true, it executes the next statement, then it goes back to evaluate the condition again.  If true, it keeps executing.  It doesn't stop until the contion is false.
+      </p>
+    </div>
+  </div>
+
+  <div class="main">
+    <h2 id=lesson-2.5>Lesson 2.5 – Debugging</h2>
+
+    <div class="sub-1">
+      <p>
+        There are five key debugging strategies
+        <ol>
+          <li>
+            Examine error messages when programs crash.
+          </li>
+          <li>Work from example code.
+          </li>
+          <li>Make sure examples work.
+          </li>
+          <li>Check, i.e., print, intermediate results.
+          </li>
+          <li>Keep and compare old versions.
+          </li>
+        </ol>
+      </p>
+    </div>
+  </div>
+
+  <div class="main">
+    <h2 id=lesson-2.6>Lesson 2.6 – Structured Data: Lists and For Loops</h2>
+
+    <div class="sub-1">
+      <p>
+        Lists and loops are ways to structure data. While we used a string is a sequence of characters, we can use list to sequence anything.
+        <ul>
+          <li>Lists are indexed just like letters in a word in a string.
+          </li>
+          <li>Lists can be put inside of lists, i.e. nested within each other.
+          </li>
+        </ul>
+      </p>
+      <p>Mutation - Means changing the value of a list after its been created. Caution: if we change an assignment of one value, it could have impact if that value has an assignment.
+      </p>
+      <p>Aliasing - When we have two different ways to refer to the same object.
+      </p>
+      <p>Examples of List Operations
+        <ul>
+          <li>Append, which mutates the list it is invoked upon; it does not create a new list</li>
+          <li>Plus, which produces a new list (not a mutation of prior list); similar to concatenation of strings</li>
+          <li>Length, which gives the number of elements in a list also works on string (gives the number of characters)</li>
+        </ul>
+        <p>Loops on Lists - Allow you to loop through elements in a list
+        </p>
+      </p>
+    </div>
+  </div>
+
+  <div class="main">
+    <h2 id=lesson-2.7>Lesson 2.7 – How to Solve Problems</h2>
+
+    <div class="sub-1">
+      <p>
+        To solve a problem, you must understand it first. Use these strategies to solve problems:
+        <ol>
+          <li>
+            Don't panic.
+          </li>
+          <li>What are the inputs?
+          </li>
+          <li>What are the outputs?
+          </li>
+          <li>Work through some samples by hand.
+          </li>
+          <li>Use simple mechanical solutions.
+          </li>
+          <li>Develop solution incrementally and test as you go.
+          </li>
+        </ol>
+      </p>
+    </div>
+  </div>
+
+
+</body>
+    
+</html>
